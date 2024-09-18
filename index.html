@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahesh's Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<body>
+    <header>
+        <h1>Sai Mahesh Potharla</h1>
+        <img id="profile-pic" src="./display_pic_web_project1.jpg" alt="profile picture">
+        <p>Aspiring Web Developer and Cloud Engineer</p>
+        
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="./contact.html">Contact info</a></li>
+
+        </ul>
+    </nav>
+    <section id="home" style="text-align: center;">
+        <h2 >Welcome to My Website</h2>
+        <p>This is the homepage of my personal website where you can learn more about me and my projects.</p>
+    </section>
+    <section id="About">
+        <h3>About Me</h3>
+        <p>Hello! I'm Sai Mahesh, currently pursuing my masters in computer science. I am looking for a web developer role.</p>
+        <p>I have one year experience in working with real time projects and i have a passion for creating user-friendly and efficient web applications</p>
+    </section>
+    <section id="portfolio">
+        <h3>My Portfolio</h3>
+        <div class="project"></div>
+            <h4>Project 1: Student - Professor Dashboard</h3>
+            <p>This is a project which i have created with refernce with blackboard concept in  where i used few AWS services for the implementation</p>
+            <!-- Example for absolute link where i dont have picture for project preface -->
+            <a id="photo1" href="https://github.com/saimahesh425/student-professor-dashboard">project 1 picture</a>  
+        </div>
+        <div class="project">
+            <h4>Project 2: Impact of Social Media on Youth</h3>
+            <p>A simple web app using real-time API data collected from different resources to determine the impact of social media on youth.</p>
+            <!-- Example for relative link where the image is present in the same folder -->
+            <img id="photo2" src="./project2-ref.jpg">
+        </div>
+
+    </section>
+
+    <section id="contact" style="text-align: center;">
+        <!-- Example for using the multipule web pages using relative path, here i have created a contact page externally and linked here -->
+        <a href="./contact.html"> Contact here</a>
+    </section>
+    
+
+    <footer >
+        <ul>
+            <!-- Example for using the external icons where we can fetch from mdn docs -->
+        <li><a href="https://www.linkedin.com/in/mahesh-potharla-128536172/" style="text-align: center;" > <i class="fa fa-linkedin-square">linkedin     </i> </a></li>
+        <li><a href="https://github.com/saimahesh425"><i class="fa fa-github-square">Github</i></a></li>
+    </ul>
+    </footer>
+      
+</body>
+</html>
